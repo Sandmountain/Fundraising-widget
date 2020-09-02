@@ -1,0 +1,24 @@
+/* Progress bar */
+
+.progress-bar__container {
+  position: relative;
+  height: 12px;
+  border-bottom: 1px solid var(--theme-light-grey-color);
+}
+
+.progress-bar__bar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  max-width: 100%;
+  transition: all 0.2s ease;
+}
+
+.progress-bar--in-progress {
+  background-color: var(--theme-orange-color);
+}
+
+.progress-bar--finished {
+  background-color: var(--theme-green-color);
+}

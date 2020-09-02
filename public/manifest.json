@@ -1,0 +1,8 @@
+{
+  "short_name": "The fundrasing widget",
+  "name": "The fundrasing widget",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

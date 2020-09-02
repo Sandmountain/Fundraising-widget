@@ -1,0 +1,38 @@
+/* Input and submit */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type='text'] {
+  padding: 10px;
+  border-radius: 5px;
+  width: inherit;
+  border: 1px solid var(--theme-light-grey-color);
+}
+
+.input--error:focus {
+  box-shadow: 0 0 2px var(--theme-red-color);
+  border: 1px solid var(--theme-red-color);
+  outline: 0;
+}
+.input--valid:focus {
+  box-shadow: 0 0 2px var(--theme-green-color);
+  border: 1px solid var(--theme-green-color);
+  outline: 0;
+}
+
+::placeholder {
+  font-size: 12px;
+}
+
+button,
+input[type='submit'] {
+  margin-top: 5px;
+  padding: 10px;
+  background-color: var(--theme-green-color);
+  border: 0px;
+  color: #fff;
+  border-radius: 5px;
+}

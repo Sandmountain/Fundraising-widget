@@ -1,0 +1,39 @@
+/* Global resets */
+
+/* Theme Variables */
+:root {
+  --theme-blue-color: #20a1d4;
+  --theme-green-color: #1cbc2c;
+  --theme-green-tint-color: #dff0d8;
+  --theme-orange-color: #ef5f3c;
+  --theme-red-color: #ef3c3c;
+  --theme-red-tint-color: #ebc2c2;
+  --theme-black-color: #424242;
+  --theme-grey-color: #777;
+  --theme-light-grey-color: #eaeaea;
+  --theme-background-color: #f1f1f1;
+  --theme-white-color: #fff;
+}
+
+body {
+  font-family: 'rooney-sans', Avenir-Book, Calibri, sans-serif;
+  color: var(--theme-black-color);
+  line-height: 1.4;
+  font-size: 12px;
+}
+
+/* Fonts */
+h1 {
+  font-family: 'rooney-web', 'AmericanTypewriter', Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+body {
+  background-color: var(--theme-white-color);
+}
+
+.main-container {
+  margin: auto;
+  width: 50%;
+}
